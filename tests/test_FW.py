@@ -6,6 +6,10 @@ from FarmWisdom import FarmWisdom
 #which contains both FarmWisdom and tests folders
 
 # the assertion needs to reference the namespace
+# and be called test...something
 
 def test_balance():
-    assert FarmWisdom.balance is not None
+    assert FarmWisdom.bank_account is not None
+    
+def test_assets_acquired():
+    assert len(FarmWisdom.assets) > 0
