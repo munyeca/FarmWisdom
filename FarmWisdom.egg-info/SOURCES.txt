@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+FarmWisdom.egg-info/PKG-INFO
+FarmWisdom.egg-info/SOURCES.txt
+FarmWisdom.egg-info/dependency_links.txt
+FarmWisdom.egg-info/top_level.txt
+src/FarmWisdom/Accounting.py
+src/FarmWisdom/FarmWisdom.py
+src/FarmWisdom/__init__.py

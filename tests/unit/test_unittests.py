@@ -1,6 +1,5 @@
-from FarmWisdom import Accounting
+from src.FarmWisdom import Accounting
 #from the folder import the python file
-#the FarmWisdom folder is the highest level directory with an __init__ file
 
 #pytest needs to be run from the lowest folder
 #which has children both FarmWisdom.py and tests folders

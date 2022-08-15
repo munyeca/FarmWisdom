@@ -1,4 +1,4 @@
-from Accounting import Account
+from src.FarmWisdom.Accounting import Account
       
 def buyFlockOfChickens():
     print("Chickens cost $15 for a flock")

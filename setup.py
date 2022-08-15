@@ -10,7 +10,7 @@ config = {
 	'author': 'Laura Cathey Lubinski', 
 	'author_email': 'cathlaura@gmail.com',
 	'version': '0.1',
-	'packages': ['FarmWisdom'],
+	'packages': ['src.FarmWisdom'],
 	'scripts': [],
 	'name': 'FarmWisdom'
 }
