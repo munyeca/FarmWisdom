@@ -1,4 +1,5 @@
 from src.FarmWisdom import Accounting
+from src.FarmWisdom import FarmWisdom
 #from the folder import the python file
 
 #pytest needs to be run from the lowest folder
@@ -15,3 +16,7 @@ def test_bank():
     bank_account.buy(15)
     bank_account.earnings(415)
     assert bank_account.balance == 2400
+
+def test_chickens():
+    FarmWisdom.buyFlockOfChickens()
+    assert len(FarmWisdom.assets) > 0

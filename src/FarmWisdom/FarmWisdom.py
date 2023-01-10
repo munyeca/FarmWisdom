@@ -10,20 +10,19 @@ def buyFlockOfChickens():
 assets = []
 bank_account = Account(1000)
 
-print(f"Year 0\nStarting bank balance:${bank_account.balance}\nAssets:{assets}\n"
-f"You buy a flock of chickens.")
-buyFlockOfChickens()
+print(f"Year 0\nStarting bank balance:${bank_account.balance}\n"
+f"Assets:{assets}\nWhat do you want to do?\nOptions:\n"
+f"A. Buy chickens\nB. Fold the farm")
+decision = ''
+while decision not in ["A", "B"]:
+    print("A or B?")
+    decision = input(">>>").upper()
+if decision == "A":
+    print(f"You buy a flock of chickens.")
+    buyFlockOfChickens()
+if decision == "B":
+    print("It was a good run while it lasted.")
+    exit()
 print(f"\nYear 1\nStarting bank balance:${bank_account.balance}\nAssets:{assets}")
 
-
-'''
-
-print(f"What do you want to do? \nOptions:\n*Buy chickens")
-decision = input(">>>")
-if decision == "Buy chickens":
-    flock1 = FlockOfChickens()
-    flock1.buy()
-print(f"Ending bank balance: ${balance}")
-
 #eventually need to do a while loop to advance the years
-'''
